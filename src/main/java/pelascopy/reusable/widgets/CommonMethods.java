@@ -99,7 +99,7 @@ public class CommonMethods extends CommonFunctions{
             robot.keyRelease(KeyEvent.VK_ENTER);
             
             Thread.sleep(5000);
-            System.out.println("waiting for click");
+            
             comm_func.click(tc_repo, wd, AccountPageConstants.Contact_link, "Contact_link");
             Thread.sleep(1000);
             comm_func.click(tc_repo, wd, AccountPageConstants.New_contact_btn, "new_contact_btn");
