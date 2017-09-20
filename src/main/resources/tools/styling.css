@@ -1,0 +1,28 @@
+body{background-color:#B7A0B0;}
+
+table{border-collapse:collapse;width:100%;}
+
+th{background-color:#87684c;color:white;}
+
+table,th,td{border:2px solid black;}
+
+td{text-align:center;font-family:"Trebuchet MS";}
+
+label,h2,h1{font-family:"Trebuchet MS";}
+
+h1{font-size:250%;}
+	
+label{font-size:120%;}
+
+input
+{
+	height: 30px;
+	width:200px;
+	border: 2px solid;
+	color: #15154d;
+	border-radius: 5px;
+}
+
+.Passed{background-color:#00CC00;}
+.Failed{background-color:#FA2B2B;}
+.Done{background-color:#F0E68C;}

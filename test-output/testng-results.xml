@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="165" started-at="2017-09-08T07:20:02Z" finished-at="2017-09-08T07:20:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="165" started-at="2017-09-08T07:20:02Z" finished-at="2017-09-08T07:20:02Z">
+      <class name="pelascopy.testscripts.Generic.CustomerCreation">
+        <test-method status="SKIP" signature="LoginSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@6f1fba17]" name="LoginSuccess" duration-ms="0" started-at="2017-09-08T12:50:02Z" finished-at="2017-09-08T12:50:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'param-testcaseid' is required by @Test on method LoginSuccess but has not been marked @Optional or defined
+in C:\Users\prerana.shrivastava\AppData\Local\Temp\testng-eclipse-285180065\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'param-testcaseid' is required by @Test on method LoginSuccess but has not been marked @Optional or defined
+in C:\Users\prerana.shrivastava\AppData\Local\Temp\testng-eclipse-285180065\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:165)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:462)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1300)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1015)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1104)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccess -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@6f1fba17]" name="afterTest" is-config="true" duration-ms="23" started-at="2017-09-08T12:50:02Z" finished-at="2017-09-08T12:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pelascopy.testscripts.Generic.CustomerCreation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

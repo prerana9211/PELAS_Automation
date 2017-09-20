@@ -1,0 +1,5 @@
+pelascopy\pageobjects\LoginPageConstants.class
+pelascopy\pageobjects\OpportunityPageConstant.class
+pelascopy\pageobjects\AccountPageConstants.class
+pelascopy\pageobjects\ContactPageConstant.class
+pelascopy\reusable\widgets\CommonMethods.class
