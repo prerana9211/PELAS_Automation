@@ -3,11 +3,11 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Regression_PELAS]" parallel="tests">
   <parameter name="param-environment" value="PELAS"/>
   <parameter name="param-testcaseid" value="PELAS_01"/>
-  <parameter name="param-browser" value="Firefox"/>
+  <parameter name="param-browser" value="Chrome"/>
   <test name="Create Customer Account(failed)" parallel="tests">
     <parameter name="param-environment" value="PELAS"/>
     <parameter name="param-testcaseid" value="PELAS_01"/>
-    <parameter name="param-browser" value="Firefox"/>
+    <parameter name="param-browser" value="Chrome"/>
     <classes>
       <class name="pelascopy.testscripts.Generic.CustomerCreation">
         <methods>

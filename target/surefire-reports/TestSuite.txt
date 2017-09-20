@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.173 sec <<< FAILURE! - in TestSuite
-LoginSuccess(pelascopy.testscripts.Generic.CustomerCreation)  Time elapsed: 82.148 sec  <<< FAILURE!
-java.lang.Exception
-	at pelascopy.testscripts.Generic.CustomerCreation.LoginSuccess(CustomerCreation.java:96)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 175.828 sec - in TestSuite
