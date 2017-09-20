@@ -1,0 +1,36 @@
+<project name="ANT_with_TestNGXslt" basedir=".">
+
+	<property name="lib.dir" value="src/main/resources/tools" />
+	
+	<path id="build.class.path">
+		<pathelement location="${lib.dir}/SaxonLiaison.jar" />
+		<pathelement location="${lib.dir}/saxon-8.7.jar" />
+	</path>
+	
+	<!-- Target to make XSLT reports -->
+	<target name="generateXsltReport">
+					
+					<echo>Generating XSLT</echo>
+					<delete dir="${reportXslt.dir}" />
+					<mkdir dir="${reportXslt.dir}" />			
+					
+					<delete includeEmptyDirs="true">
+						<fileset dir="${reportXslt.dir}" includes="TestCaseReport_*/**" />
+					</delete>
+					<copy todir="${reportXslt.dir}">
+						<fileset dir="${report.dir.input}">
+							  <include name="TestCaseReport_**/**"/>
+						</fileset>
+					</copy>
+					<copy file="${basedir}/src/main/resources/tools/reporting/testcaseStyle.css" tofile="${reportXslt.dir}/testcaseStyle.css"></copy>
+					<copy file="${basedir}/src/main/resources/tools/reporting/infosys-logo.jpg" tofile="${reportXslt.dir}/infosys-logo.jpg"></copy>
+					<copy todir="${reportXslt.dir}">
+						<fileset dir="${basedir}/target/customReport"/>
+					</copy>
+					<xslt in="${report.dir.input}/testng-results.xml" style="testng-results.xsl" out="${reportXslt.dir}/index.html" processor="SaxonLiaison" classpathref="build.class.path">
+						<param name="testNgXslt.outputDir" expression="${basedir}/${reportXslt.dir}/" />
+						<param name="testNgXslt.showRuntimeTotals" expression="true" />
+					</xslt>
+	</target>
+				
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Regression_PELAS]" parallel="tests">
+  <parameter name="param-environment" value="PELAS"/>
+  <parameter name="param-testcaseid" value="PELAS_01"/>
+  <parameter name="param-browser" value="Firefox"/>
+  <test name="Create Customer Account(failed)" parallel="tests">
+    <parameter name="param-environment" value="PELAS"/>
+    <parameter name="param-testcaseid" value="PELAS_01"/>
+    <parameter name="param-browser" value="Firefox"/>
+    <classes>
+      <class name="pelascopy.testscripts.Generic.CustomerCreation">
+        <methods>
+          <include name="afterTest"/>
+          <include name="LoginSuccess" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pelascopy.testscripts.Generic.CustomerCreation -->
+    </classes>
+  </test> <!-- Create Customer Account(failed) -->
+</suite> <!-- Failed suite [Regression_PELAS] -->

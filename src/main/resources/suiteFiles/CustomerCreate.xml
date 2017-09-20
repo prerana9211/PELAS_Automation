@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<suite name="Regression_PELAS" parallel="tests" thread-count="1" >
+ 
+ <test name= "Create Customer Account" preserve-order="True">
+<parameter name="param-testcaseid" value="PELAS_01" />
+<parameter name="param-browser" value="Chrome"/>
+<parameter name="param-environment" value="PELAS"/>
+<classes>
+<class name="pelascopy.testscripts.Generic.CustomerCreation" />
+</classes>
+</test>
+<!-- 
+ <test name= "Verify Order Intake" preserve-order="True">
+<parameter name="param-testcaseid" value="OM_02" />
+<parameter name="param-browser" value="Chrome"/>
+<parameter name="param-environment" value="UMOMCAREDEV"/>
+<classes>
+<class name="om.testscripts.Generic.OrderIntake" />
+</classes>
+</test>
+  -->
+</suite>
