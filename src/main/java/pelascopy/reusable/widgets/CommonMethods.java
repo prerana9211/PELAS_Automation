@@ -97,7 +97,7 @@ public class CommonMethods extends CommonFunctions{
           // handle the keypress event on default selected option
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
-            System.out.println("finding element");
+            
             Thread.sleep(5000);
             System.out.println("waiting for click");
             comm_func.click(tc_repo, wd, AccountPageConstants.Contact_link, "Contact_link");
