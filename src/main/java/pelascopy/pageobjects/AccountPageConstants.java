@@ -14,5 +14,6 @@ public class AccountPageConstants {
 	public static String New_oppty=".//input[@value='New Opportunity']";
 	public static String Manage_PP=".//div[@id='workWithPortalButton']";
 	public static String Contact_link=".//span[@class='listTitle' and contains(text(),'Contacts')]";
+	public static String Acc_link=".//span[@class='listTitle' and contains(text(),'Contacts')]";
 }
 ////*[@id="acc20"]
