@@ -103,7 +103,7 @@ public class CommonMethods extends CommonFunctions{
             comm_func.click(tc_repo, wd, AccountPageConstants.Contact_link, "Contact_link");
             Thread.sleep(1000);
             comm_func.click(tc_repo, wd, AccountPageConstants.New_contact_btn, "new_contact_btn");
-            System.out.println("nahi hua");
+            
 			
 		}
 		catch (Exception e) {
@@ -129,6 +129,7 @@ public class CommonMethods extends CommonFunctions{
 			//click on link
 			wd.findElement(By.linkText(accName)).click();
 			Thread.sleep(4000);
+			comm_func.click(tc_repo, wd, AccountPageConstants.Acc_link, "Acc_link");
 			comm_func.click(tc_repo, wd, AccountPageConstants.Opp_link, "Opp_link");
 			Thread.sleep(1000);
 			comm_func.click(tc_repo, wd, AccountPageConstants.New_oppty, "New_oppty");
