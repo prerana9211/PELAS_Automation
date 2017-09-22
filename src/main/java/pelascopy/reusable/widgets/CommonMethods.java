@@ -130,6 +130,7 @@ public class CommonMethods extends CommonFunctions{
 			wd.findElement(By.linkText(accName)).click();
 			Thread.sleep(4000);
 			comm_func.click(tc_repo, wd, AccountPageConstants.Acc_link, "Acc_link");
+			comm_func.click(tc_repo, wd, AccountPageConstants.Opp_link, "Opp_link");
 			Thread.sleep(1000);
 			comm_func.click(tc_repo, wd, AccountPageConstants.New_oppty, "New_oppty");
 		}
