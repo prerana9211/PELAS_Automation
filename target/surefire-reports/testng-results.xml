@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<a href="TestCaseReport_PELAS_01_09222017_191342/index.html" target="content">Report for PELAS flow</a><br\>]]>
+      <![CDATA[<a href="TestCaseReport_PELAS_01_09282017_165112/index.html" target="content">Report for PELAS flow</a><br\>]]>
     </line>
     <line>
       <![CDATA[Application has opened]]>
     </line>
   </reporter-output>
-  <suite name="Regression_PELAS" duration-ms="182092" started-at="2017-09-22T13:43:42Z" finished-at="2017-09-22T13:46:44Z">
+  <suite name="Regression_PELAS" duration-ms="186381" started-at="2017-09-28T11:21:12Z" finished-at="2017-09-28T11:24:18Z">
     <groups>
     </groups>
-    <test name="Create Customer Account" duration-ms="182092" started-at="2017-09-22T13:43:42Z" finished-at="2017-09-22T13:46:44Z">
+    <test name="Create Customer Account" duration-ms="186381" started-at="2017-09-28T11:21:12Z" finished-at="2017-09-28T11:24:18Z">
       <class name="pelascopy.testscripts.Generic.CustomerCreation">
-        <test-method status="PASS" signature="LoginSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@34b7bfc0]" name="LoginSuccess" duration-ms="182067" started-at="2017-09-22T19:13:42Z" finished-at="2017-09-22T19:16:44Z">
+        <test-method status="PASS" signature="LoginSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@6df97b55]" name="LoginSuccess" duration-ms="186356" started-at="2017-09-28T16:51:12Z" finished-at="2017-09-28T16:54:18Z">
           <params>
             <param index="0">
               <value>
@@ -48,14 +48,14 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href="TestCaseReport_PELAS_01_09222017_191342/index.html" target="content">Report for PELAS flow</a><br\>]]>
+              <![CDATA[<a href="TestCaseReport_PELAS_01_09282017_165112/index.html" target="content">Report for PELAS flow</a><br\>]]>
             </line>
             <line>
               <![CDATA[Application has opened]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginSuccess -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@34b7bfc0]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-22T19:16:44Z" finished-at="2017-09-22T19:16:44Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pelascopy.testscripts.Generic.CustomerCreation@6df97b55]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-09-28T16:54:18Z" finished-at="2017-09-28T16:54:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
